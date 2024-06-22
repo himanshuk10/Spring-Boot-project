@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+
+jpa:
+  properties:
+    hibernate:
+      dialect:
+  show-sql: true
+
+jpa.hibernate.ddl-auto: create-drop
